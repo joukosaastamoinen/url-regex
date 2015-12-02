@@ -57,7 +57,8 @@ test('match URLs', function (t) {
 		'//a.b-c.de',
 		'//223.255.255.254',
 		'//userid:password@example.com',
-		'//➡.ws/䨹'
+		'//➡.ws/䨹',
+		'www.foo.bar'
 	];
 
 	fixtures.forEach(function (el) {
